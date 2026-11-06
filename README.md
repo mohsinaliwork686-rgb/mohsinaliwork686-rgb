@@ -27,6 +27,6 @@ open-source tools for applications that use language models, and finish one proj
 - [redis-py](https://github.com/redis/redis-py/pull/4466): documented the connection pool limit
   and `BlockingConnectionPool`
 
-**Now:** a larger project in .NET, the stack I use at work.
+**Now:** two .NET projects, the stack I use at work: a scheduling app and a webhook delivery service.
 
 More about me and my work: [mohsinaliwork686-rgb.github.io](https://mohsinaliwork686-rgb.github.io)
