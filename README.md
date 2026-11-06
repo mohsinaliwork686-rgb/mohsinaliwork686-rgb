@@ -7,6 +7,8 @@ open-source tools for applications that use language models, and finish one proj
 
 - [llm-router](https://github.com/mohsinaliwork686-rgb/llm-router): one endpoint for many language
   models, with a spending cap that holds under concurrent load
+- [semcache](https://github.com/mohsinaliwork686-rgb/semcache): caches model answers by meaning,
+  with a benchmark that shows where it starts giving wrong answers
 - [evalboard](https://github.com/mohsinaliwork686-rgb/evalboard): compares two eval runs case by
   case and shows exactly what got worse ([try it](https://mohsinaliwork686-rgb.github.io/evalboard/))
 - [ragsweep](https://github.com/mohsinaliwork686-rgb/ragsweep): measures which retrieval settings
@@ -25,7 +27,6 @@ open-source tools for applications that use language models, and finish one proj
 - [redis-py](https://github.com/redis/redis-py/pull/4466): documented the connection pool limit
   and `BlockingConnectionPool`
 
-**Now:** `semcache`, a semantic cache for model calls, with a benchmark that shows where it starts
-giving wrong answers.
+**Now:** a larger project in .NET, the stack I use at work.
 
 More about me and my work: [mohsinaliwork686-rgb.github.io](https://mohsinaliwork686-rgb.github.io)
