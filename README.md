@@ -24,8 +24,9 @@ open-source tools for applications that use language models, and finish one proj
 
 - [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis/pull/3313): fixed
   batched commands missing from the client's profiler; shipped in release 3.4.29
-- [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4245):
-  fixed a crash when a generic subclass met inheritance in the generated OpenAPI document
+- [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4245): fixed
+  two crashes in OpenAPI generation with inheritance, for generic subclasses and for
+  [non-public Newtonsoft members](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4244)
 - [graphql-code-generator](https://github.com/dotansimha/graphql-code-generator/pull/11106): fixed
   generated code that did not compile for a project with no queries yet; shipped in `client-preset`
   7.0.0
