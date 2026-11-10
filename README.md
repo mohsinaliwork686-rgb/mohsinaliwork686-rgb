@@ -1,6 +1,6 @@
 ### Hi, I'm Mohsin
 
-I'm a software engineer at SoftBuilds. There I build the subscription, billing and licensing for
+I'm a software engineer at SoftBuilds. There I built the subscription enforcement, billing and licensing for
 [AI Refinery](https://www.airefinery.co/), a self-hosted LLM platform on Kubernetes and Azure, and
 healthcare order fulfilment systems on Azure and .NET. In my own time I build open-source tools for
 applications that use language models, and finish one project a week.
