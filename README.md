@@ -32,8 +32,9 @@ applications that use language models, and finish one project a week.
   and [marked read-only sets as unique](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4246);
   all three shipped in v11.0.0
 - [graphql-code-generator](https://github.com/dotansimha/graphql-code-generator/pull/11106): fixed
-  generated code that did not compile for a project with no queries yet; shipped in `client-preset`
-  7.0.0
+  generated code that did not compile for a project with no queries yet, shipped in `client-preset`
+  7.0.0, and [enums mapped to objects typed as `null`](https://github.com/dotansimha/graphql-code-generator/pull/11116)
+  in resolvers
 - [Authlib](https://github.com/authlib/authlib/pull/1009): fixed expired `client_credentials` tokens
   not being renewed, and [renewed tokens losing `access_token_params`](https://github.com/authlib/authlib/pull/1026)
 - [redis-py](https://github.com/redis/redis-py/pull/4466): documented the connection pool limit
