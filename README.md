@@ -29,8 +29,9 @@ applications that use language models, and finish one project a week.
 - [Swashbuckle.AspNetCore](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4245): fixed
   two crashes in OpenAPI generation with inheritance, for generic subclasses and for
   [non-public Newtonsoft members](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4244),
-  and [marked read-only sets as unique](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4246);
-  all three shipped in v11.0.0
+  and marked [read-only](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4246) and
+  [immutable](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4272) sets as unique;
+  the first three shipped in v11.0.0
 - [graphql-code-generator](https://github.com/dotansimha/graphql-code-generator/pull/11106): fixed
   generated code that did not compile for a project with no queries yet, shipped in `client-preset`
   7.0.0, and [enums mapped to objects typed as `null`](https://github.com/dotansimha/graphql-code-generator/pull/11116)
