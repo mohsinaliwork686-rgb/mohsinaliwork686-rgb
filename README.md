@@ -33,6 +33,8 @@ applications that use language models, and finish one project a week.
   [immutable](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4272) sets as unique,
   and [stopped document filters' edits leaking into later requests](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4273);
   the first three shipped in v11.0.0
+- [System.IO.Abstractions](https://github.com/TestableIO/System.IO.Abstractions/pull/1591): fixed the
+  mock file system naming the Unix root drive `/:\` and listing it twice; shipped in v23.0.1
 - [graphql-code-generator](https://github.com/dotansimha/graphql-code-generator/pull/11106): fixed
   generated code that did not compile for a project with no queries yet, shipped in `client-preset`
   7.0.0, and [enums mapped to objects typed as `null`](https://github.com/dotansimha/graphql-code-generator/pull/11116)
