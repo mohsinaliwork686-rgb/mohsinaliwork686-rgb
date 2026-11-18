@@ -7,6 +7,9 @@ applications that use language models, and finish one project a week.
 
 **Projects**
 
+- [rotadesk](https://github.com/mohsinaliwork686-rgb/rotadesk): staff scheduling for small
+  businesses, one app for many of them, in ASP.NET Core and React
+  ([try it](https://rotadesk.onrender.com))
 - [llm-router](https://github.com/mohsinaliwork686-rgb/llm-router): one endpoint for many language
   models, with a spending cap that holds under concurrent load
 - [semcache](https://github.com/mohsinaliwork686-rgb/semcache): caches model answers by meaning,
@@ -35,15 +38,20 @@ applications that use language models, and finish one project a week.
   the first three shipped in v11.0.0
 - [System.IO.Abstractions](https://github.com/TestableIO/System.IO.Abstractions/pull/1591): fixed the
   mock file system naming the Unix root drive `/:\` and listing it twice; shipped in v23.0.1
+- [TUnit](https://github.com/thomhurst/TUnit/pull/7799): fixed `IsEquivalentTo` reporting an object
+  as not equivalent to itself; shipped in v1.86.6
 - [graphql-code-generator](https://github.com/dotansimha/graphql-code-generator/pull/11106): fixed
   generated code that did not compile for a project with no queries yet, shipped in `client-preset`
   7.0.0, and [enums mapped to objects typed as `null`](https://github.com/dotansimha/graphql-code-generator/pull/11116)
   in resolvers, shipped in `typescript-resolvers` 7.0.1
 - [Authlib](https://github.com/authlib/authlib/pull/1009): fixed expired `client_credentials` tokens
   not being renewed, and [renewed tokens losing `access_token_params`](https://github.com/authlib/authlib/pull/1026)
+- [Tornado](https://github.com/tornadoweb/tornado/pull/3875): stopped adding `Vary: Accept-Encoding`
+  to responses it never compresses, and fixed WSGI apps failing on
+  [unusual `Host` headers](https://github.com/tornadoweb/tornado/pull/3865)
 - [redis-py](https://github.com/redis/redis-py/pull/4466): documented the connection pool limit
   and `BlockingConnectionPool`
 
-**Now:** two .NET projects, the stack I use at work: a scheduling app and a webhook delivery service.
+**Now:** hookline, a .NET service that delivers webhooks reliably: stored first, signed and retried.
 
 More about me and my work: [mohsinaliwork686-rgb.github.io](https://mohsinaliwork686-rgb.github.io)
