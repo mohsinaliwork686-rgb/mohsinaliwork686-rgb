@@ -40,6 +40,8 @@ applications that use language models, and finish one project a week.
   mock file system naming the Unix root drive `/:\` and listing it twice; shipped in v23.0.1
 - [TUnit](https://github.com/thomhurst/TUnit/pull/7799): fixed `IsEquivalentTo` reporting an object
   as not equivalent to itself; shipped in v1.86.6
+- [Umbraco CMS](https://github.com/umbraco/Umbraco-CMS/pull/24662): made the Management API return a
+  400 instead of a 500 for multilingual content created without any language variants
 - [graphql-code-generator](https://github.com/dotansimha/graphql-code-generator/pull/11106): fixed
   generated code that did not compile for a project with no queries yet, shipped in `client-preset`
   7.0.0, and [enums mapped to objects typed as `null`](https://github.com/dotansimha/graphql-code-generator/pull/11116)
