@@ -47,7 +47,9 @@ applications that use language models, and finish one project a week.
 - [graphql-code-generator](https://github.com/dotansimha/graphql-code-generator/pull/11106): fixed
   generated code that did not compile for a project with no queries yet, shipped in `client-preset`
   7.0.0, and [enums mapped to objects typed as `null`](https://github.com/dotansimha/graphql-code-generator/pull/11116)
-  in resolvers, shipped in `typescript-resolvers` 7.0.1
+  in resolvers, shipped in `typescript-resolvers` 7.0.1, and
+  [utility types generated above the imports](https://github.com/dotansimha/graphql-code-generator/pull/11120),
+  shipped in `typescript-operations` 7.0.2
 - [Authlib](https://github.com/authlib/authlib/pull/1009): fixed expired `client_credentials` tokens
   not being renewed, and [renewed tokens losing `access_token_params`](https://github.com/authlib/authlib/pull/1026)
 - [Tornado](https://github.com/tornadoweb/tornado/pull/3875): stopped adding `Vary: Accept-Encoding`
