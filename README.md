@@ -43,7 +43,8 @@ applications that use language models, and finish one project a week.
 - [TUnit](https://github.com/thomhurst/TUnit/pull/7799): fixed `IsEquivalentTo` reporting an object
   as not equivalent to itself; shipped in v1.86.6
 - [Umbraco CMS](https://github.com/umbraco/Umbraco-CMS/pull/24662): made the Management API return a
-  400 instead of a 500 for multilingual content created without any language variants
+  400 instead of a 500 for multilingual content created without any language variants, and
+  [stopped a new composition from giving the types built on it duplicate property aliases](https://github.com/umbraco/Umbraco-CMS/pull/24768)
 - [graphql-code-generator](https://github.com/dotansimha/graphql-code-generator/pull/11106): fixed
   generated code that did not compile for a project with no queries yet, shipped in `client-preset`
   7.0.0, and [enums mapped to objects typed as `null`](https://github.com/dotansimha/graphql-code-generator/pull/11116)
