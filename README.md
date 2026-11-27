@@ -12,6 +12,9 @@ applications that use language models, and finish one project a week.
   ([try it](https://rotadesk.onrender.com))
 - [hookline](https://github.com/mohsinaliwork686-rgb/hookline): delivers webhooks reliably, even when
   the receiver is down: stored first, signed, retried by workers sharing PostgreSQL, with a dashboard
+- [grounded](https://github.com/mohsinaliwork686-rgb/grounded): document Q&A where every sentence
+  cites its passage and a local NLI model checks it, and it says so when the documents don't cover
+  the question
 - [llm-router](https://github.com/mohsinaliwork686-rgb/llm-router): one endpoint for many language
   models, with a spending cap that holds under concurrent load
 - [semcache](https://github.com/mohsinaliwork686-rgb/semcache): caches model answers by meaning,
@@ -59,6 +62,6 @@ applications that use language models, and finish one project a week.
 - [redis-py](https://github.com/redis/redis-py/pull/4466): documented the connection pool limit
   and `BlockingConnectionPool`
 
-**Now:** grounded, answers from your own documents where every sentence carries a citation, or isn't shown.
+**Now:** agent-trace, which records what an AI agent did, step by step, and ci-timeline, which shows which CI step is actually making builds slow.
 
 More about me and my work: [mohsinaliwork686-rgb.github.io](https://mohsinaliwork686-rgb.github.io)
