@@ -42,7 +42,9 @@ applications that use language models, and finish one project a week.
   and [stopped document filters' edits leaking into later requests](https://github.com/domaindrivendev/Swashbuckle.AspNetCore/pull/4273);
   the first three shipped in v11.0.0
 - [System.IO.Abstractions](https://github.com/TestableIO/System.IO.Abstractions/pull/1591): fixed the
-  mock file system naming the Unix root drive `/:\` and listing it twice; shipped in v23.0.1
+  mock file system naming the Unix root drive `/:\` and listing it twice, shipped in v23.0.1,
+  [recursive deletes removing locked files](https://github.com/TestableIO/System.IO.Abstractions/pull/1607),
+  and [whitespace-only names rejected on Linux and macOS](https://github.com/TestableIO/System.IO.Abstractions/pull/1608)
 - [TUnit](https://github.com/thomhurst/TUnit/pull/7799): fixed `IsEquivalentTo` reporting an object
   as not equivalent to itself; shipped in v1.86.6
 - [Umbraco CMS](https://github.com/umbraco/Umbraco-CMS/pull/24662): made the Management API return a
